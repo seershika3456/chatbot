@@ -1,0 +1,6 @@
+[build.environment]
+NODE_VERSION = "18"
+
+[build]
+  functions = "functions"  # Directory where your functions are located
+  publish = "dist"         # Directory where your frontend files are located (adjust as needed)
